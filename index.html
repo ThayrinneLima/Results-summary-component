@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+   <div class="cardLeft"> 
+      <p class="topoLeft"> Your Result</p>
+      <div class="numberLeft">
+        <p class="numb"> 76 </p>
+        <p class="subNumb">  of 100 </p>
+      </div>
+      <div class="final">
+        <h1> Great </h1>
+        <p class="text"> You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+  <div class="cardRight">
+   <p class="topoRight"> Summary </p>
+    <div class="dados">
+      <div class="rea">
+        <img src="./assets/images/icon-reaction.svg" alt= "" class="icons">
+        <p class="textRea"> Reaction </p>
+        <p class="numtRea"> 80 <span>&nbsp; / 100 </span></p>
+        <div class="botao">
+          <button class="mais" onclick="somar('reaction')"><img src="./assets/images/icon-arrow-up.svg" alt=""></button>
+          <button class="menos" onclick="subtrair('reaction')"><img src="./assets/images/icon-arrow-down.svg" alt=""></button>
+        </div>
+      </div>
+
+      <div class="mem">
+        <img src="./assets/images/icon-memory.svg" alt= "" class="icons">
+        <p class="textMem"> Memory</p>
+        <p class="numMem"> 92 <span>&nbsp; / 100 </span> </p>
+        <div class="botao">
+          <button class="mais" onclick="somar('memory')"><img src="./assets/images/icon-arrow-up.svg" alt=""></button>
+          <button class="menos" onclick="subtrair('memory')"><img src="./assets/images/icon-arrow-down.svg" alt=""></button>
+        </div>
+      </div>
+      <div class="ver">
+        <img src="./assets/images/icon-verbal.svg" alt= "" class="icons">
+        <p class="textVer"> Verbal</p>
+        <p class="numVer"> 61  <span>&nbsp; / 100 </span> </p>
+        <div class="botao">
+          <button class="mais" onclick="somar('verbal')"><img src="./assets/images/icon-arrow-up.svg" alt=""></button>
+          <button class="menos" onclick="subtrair('verbal')"><img src="./assets/images/icon-arrow-down.svg" alt=""></button>
+        </div>
+      </div>
+      <div class="vis">
+        <img src="./assets/images/icon-visual.svg" alt= "" class="icons">
+        <p class="textVis"> Visual </p>
+        <p class="numVis"> 72 <span>&nbsp; / 100 </span> </p>
+        <div class="botao">
+          <button class="mais" onclick="somar('visual')"><img src="./assets/images/icon-arrow-up.svg" alt=""></button>
+          <button class="menos" onclick="subtrair('visual')"><img src="./assets/images/icon-arrow-down.svg" alt=""></button>
+        </div>
+      </div>
+    </div>
+
+     <p class="Cont" > Continue </p>
+  </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

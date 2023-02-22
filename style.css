@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.card{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Hanken Grotesk';
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.cardLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%)10%,  hsl(241, 81%, 54%) 100%);
+    padding: 8px;
+}
+.topoLeft{
+    width: 60%;
+    height: 60px;
+    color: hsl(241, 100%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18pt;
+    margin: 16px;
+    letter-spacing: 1px;
+}
+
+.numberLeft{
+    width: 55%;
+    height: 180px;
+    border-radius: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(180deg, hsla(256, 72%, 46%, 1), rgba(36, 33, 202, 0));
+}
+
+.numb{
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size: 50pt;
+}
+.subNumb{
+    font-size: 14pt;
+    color: hsl(241, 100%, 89%);
+
+}
+
+.final{
+
+    margin-top: 16px;
+    width: 78%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
+
+.text{
+    font-size: 14px;
+    width: 90%;
+}
+
+.cardRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.topoRight{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 18pt;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    color: hsl(224, 30%, 27%);
+}
+
+.dados{
+    width: 90%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.icons{
+    width: 10%;
+}
+.rea{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: hsla(0, 100%, 67%, 0.124);
+    justify-content: space-between;
+}
+
+.textRea{
+    width: 45%;
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    
+}
+
+.numtRea{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+span{
+    color: hsla(224, 30%, 27%, 0.561);
+}
+.mem{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: hsla(39, 100%, 56%, 0.181);
+    justify-content: space-between
+
+}
+.textMem{
+    width: 45%;
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;   
+}
+
+.numMem{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.ver{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: hsla(166, 100%, 37%, 0.138);
+    justify-content: space-between
+
+}
+.textVer{
+    width: 45%;
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+    
+}
+
+.numVer{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.vis{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: hsla(234, 85%, 45%, 0.152);
+    justify-content: space-between
+
+}
+.textVis{
+    width: 45%;
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;   
+}
+
+.numVis{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.Cont{
+    width: 88%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin-top: 16px;
+    margin-left: 14px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    border-radius: 24px ;
+}
+.Cont:hover{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%)10%,  hsl(241, 81%, 54%) 100%);
+    transition: 0.5s ease-in-out;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3px;
+}
+
+
+
+.attribution{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 8px;
+    font-size: 12px; 
+    text-align: center; 
+    color: hsl(263, 55%, 52%);;
+    font-family: 'Hanken Grotesk';
+    font-weight: 700;
+}
